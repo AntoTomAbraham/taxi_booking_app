@@ -1,4 +1,4 @@
-# taxi_booking
+# Taxi_booking
 
 A taxi booking app build using flutter, firebase and leaflet maps using bloc architecture.
 
