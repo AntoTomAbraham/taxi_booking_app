@@ -1,6 +1,6 @@
 # taxi_booking
 
-A new Flutter project.
+A taxi booking app build using flutter, firebase and leaflet maps using bloc architecture.
 
 ## Getting Started
 
