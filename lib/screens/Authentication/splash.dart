@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:taxi_booking/screens/Auth.dart';
+import 'package:taxi_booking/screens/Authentication/Auth.dart';
 
 class splash extends StatefulWidget {
   const splash({Key? key}) : super(key: key);

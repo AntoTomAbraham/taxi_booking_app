@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_booking/screens/splash.dart';
+import 'package:taxi_booking/screens/Authentication/splash.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
