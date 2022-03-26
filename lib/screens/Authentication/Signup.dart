@@ -3,6 +3,7 @@ import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:taxi_booking/Core/colour.dart';
 import 'package:taxi_booking/screens/Authentication/Auth.dart';
+import 'package:taxi_booking/screens/Home/home_screen.dart';
 
 class Signup extends StatelessWidget {
   const Signup({Key? key}) : super(key: key);
@@ -65,7 +66,10 @@ class Signup extends StatelessWidget {
                           depth: 8,
                           lightSource: LightSource.topLeft,
                           color: Colors.white),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pushReplacement(MaterialPageRoute(
+                            builder: (BuildContext context) => homeScreen()));
+                      },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [

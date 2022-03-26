@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taxi_booking/Core/colour.dart';
 import 'package:taxi_booking/screens/Authentication/splash.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'TAXI BOOKING APP',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: const splash(),
     );
